@@ -3,7 +3,6 @@ input.onButtonPressed(Button.A, function () {
         start_time = input.runningTime()
         start += 1
         basic.showNumber(start)
-        basic.pause(500)
         END_TIME = input.runningTime()
         basic.pause(1000 - (END_TIME - start_time))
     }
